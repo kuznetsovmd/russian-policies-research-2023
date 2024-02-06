@@ -1,0 +1,174 @@
+[
+    [
+        0,
+        "0.063*\"contact\" + 0.032*\"u\" + 0.014*\"information\" + 0.010*\"department\" + 0.009*\"personal\" + 0.007*\"privacy\" + 0.007*\"module\" + 0.007*\"sale\" + 0.007*\"right\" + 0.006*\"policy\" + 0.006*\"short\" + 0.006*\"data\" + 0.005*\"please\" + 0.005*\"correct\" + 0.005*\"access\" + 0.005*\"service\" + 0.005*\"use\" + 0.004*\"control\" + 0.004*\"hold\" + 0.004*\"explains\""
+    ],
+    [
+        1,
+        "0.031*\"choice\" + 0.015*\"policy\" + 0.013*\"privacy\" + 0.011*\"information\" + 0.010*\"controller\" + 0.009*\"data\" + 0.008*\"right\" + 0.008*\"personal\" + 0.008*\"service\" + 0.006*\"use\" + 0.006*\"share\" + 0.006*\"u\" + 0.005*\"job\" + 0.005*\"erasure\" + 0.005*\"agree\" + 0.005*\"request\" + 0.005*\"disclose\" + 0.004*\"term\" + 0.004*\"provision\" + 0.004*\"party\""
+    ],
+    [
+        2,
+        "0.026*\"cooky\" + 0.018*\"website\" + 0.017*\"use\" + 0.016*\"link\" + 0.016*\"site\" + 0.016*\"service\" + 0.014*\"party\" + 0.014*\"third\" + 0.012*\"information\" + 0.010*\"third-party\" + 0.009*\"may\" + 0.009*\"provider\" + 0.007*\"cookie\" + 0.007*\"improve\" + 0.007*\"policy\" + 0.007*\"visit\" + 0.007*\"data\" + 0.007*\"advertising\" + 0.006*\"web\" + 0.006*\"collect\""
+    ],
+    [
+        3,
+        "0.006*\"service\" + 0.006*\"information\" + 0.006*\"use\" + 0.006*\"client\" + 0.005*\"cooky\" + 0.005*\"original\" + 0.005*\"personal\" + 0.005*\"privacy\" + 0.005*\"may\" + 0.005*\"dispute\" + 0.004*\"data\" + 0.004*\"policy\" + 0.004*\"account\" + 0.004*\"technology\" + 0.004*\"website\" + 0.004*\"site\" + 0.004*\"agreement\" + 0.004*\"product\" + 0.004*\"suite\" + 0.004*\"resolve\""
+    ],
+    [
+        4,
+        "0.052*\"security\" + 0.012*\"data\" + 0.012*\"support\" + 0.010*\"information\" + 0.010*\"customer\" + 0.008*\"personal\" + 0.007*\"service\" + 0.006*\"legal\" + 0.005*\"follows\" + 0.005*\"may\" + 0.005*\"use\" + 0.005*\"provide\" + 0.005*\"law\" + 0.005*\"protect\" + 0.005*\"method\" + 0.004*\"u\" + 0.004*\"product\" + 0.004*\"fraud\" + 0.004*\"privacy\" + 0.004*\"targeted\""
+    ],
+    [
+        5,
+        "0.008*\"information\" + 0.007*\"year\" + 0.007*\"legal\" + 0.007*\"age\" + 0.006*\"request\" + 0.006*\"movado\" + 0.006*\"may\" + 0.006*\"personal\" + 0.006*\"compliance\" + 0.005*\"group\" + 0.005*\"u\" + 0.005*\"service\" + 0.005*\"data\" + 0.005*\"cooky\" + 0.004*\"website\" + 0.004*\"carry\" + 0.004*\"privacy\" + 0.004*\"obligation\" + 0.004*\"child\" + 0.004*\"product\""
+    ],
+    [
+        6,
+        "0.024*\"term\" + 0.014*\"condition\" + 0.011*\"service\" + 0.010*\"use\" + 0.009*\"source\" + 0.009*\"information\" + 0.008*\"product\" + 0.008*\"policy\" + 0.008*\"effective\" + 0.008*\"life\" + 0.008*\"privacy\" + 0.007*\"eco\" + 0.006*\"may\" + 0.006*\"website\" + 0.006*\"site\" + 0.005*\"data\" + 0.005*\"date\" + 0.005*\"personal\" + 0.005*\"week\" + 0.005*\"develop\""
+    ],
+    [
+        7,
+        "0.021*\"name\" + 0.008*\"information\" + 0.008*\"first\" + 0.008*\"network\" + 0.008*\"social\" + 0.007*\"last\" + 0.007*\"personal\" + 0.007*\"data\" + 0.006*\"service\" + 0.006*\"may\" + 0.005*\"access\" + 0.005*\"website\" + 0.005*\"third\" + 0.005*\"use\" + 0.005*\"party\" + 0.004*\"u\" + 0.004*\"december\" + 0.004*\"forum\" + 0.004*\"disclosure\" + 0.004*\"advertising\""
+    ],
+    [
+        8,
+        "0.014*\"retention\" + 0.013*\"request\" + 0.013*\"personal\" + 0.011*\"law\" + 0.011*\"data\" + 0.011*\"information\" + 0.009*\"contacting\" + 0.008*\"u\" + 0.008*\"right\" + 0.008*\"period\" + 0.008*\"applicable\" + 0.008*\"may\" + 0.007*\"day\" + 0.007*\"purpose\" + 0.006*\"required\" + 0.006*\"comply\" + 0.006*\"search\" + 0.006*\"delete\" + 0.006*\"respond\" + 0.005*\"collecting\""
+    ],
+    [
+        9,
+        "0.028*\"question\" + 0.017*\"contact\" + 0.013*\"privacy\" + 0.012*\"u\" + 0.011*\"comment\" + 0.010*\"please\" + 0.010*\"information\" + 0.009*\"policy\" + 0.008*\"data\" + 0.008*\"concern\" + 0.007*\"processing\" + 0.007*\"complaint\" + 0.007*\"may\" + 0.007*\"gdpr\" + 0.006*\"additional\" + 0.006*\"consent\" + 0.006*\"officer\" + 0.006*\"personal\" + 0.006*\"regarding\" + 0.006*\"service\""
+    ],
+    [
+        10,
+        "0.025*\"section\" + 0.023*\"use\" + 0.020*\"information\" + 0.016*\"u\" + 0.015*\"contact\" + 0.015*\"collection\" + 0.014*\"personal\" + 0.012*\"identity\" + 0.010*\"data\" + 0.009*\"tracking\" + 0.008*\"cooky\" + 0.008*\"service\" + 0.007*\"may\" + 0.007*\"provide\" + 0.007*\"request\" + 0.006*\"confirm\" + 0.006*\"technology\" + 0.005*\"see\" + 0.005*\"product\" + 0.005*\"site\""
+    ],
+    [
+        11,
+        "0.010*\"right\" + 0.010*\"law\" + 0.009*\"information\" + 0.009*\"personal\" + 0.008*\"data\" + 0.007*\"legal\" + 0.007*\"service\" + 0.007*\"may\" + 0.007*\"affiliate\" + 0.007*\"european\" + 0.006*\"protection\" + 0.006*\"privacy\" + 0.006*\"use\" + 0.006*\"party\" + 0.005*\"request\" + 0.005*\"third\" + 0.005*\"copyright\" + 0.005*\"policy\" + 0.005*\"good\" + 0.005*\"u\""
+    ],
+    [
+        12,
+        "0.011*\"usage\" + 0.011*\"data\" + 0.011*\"information\" + 0.008*\"personal\" + 0.008*\"opt-out\" + 0.008*\"directly\" + 0.007*\"get\" + 0.007*\"may\" + 0.007*\"service\" + 0.007*\"summary\" + 0.006*\"cooky\" + 0.006*\"u\" + 0.006*\"use\" + 0.006*\"non-personal\" + 0.006*\"english\" + 0.005*\"provide\" + 0.005*\"consent\" + 0.005*\"party\" + 0.005*\"website\" + 0.005*\"collect\""
+    ],
+    [
+        13,
+        "0.092*\"policy\" + 0.083*\"privacy\" + 0.047*\"change\" + 0.012*\"update\" + 0.010*\"notice\" + 0.008*\"information\" + 0.006*\"online\" + 0.006*\"website\" + 0.006*\"personal\" + 0.005*\"may\" + 0.005*\"time\" + 0.005*\"use\" + 0.005*\"statement\" + 0.004*\"service\" + 0.004*\"data\" + 0.004*\"site\" + 0.004*\"applies\" + 0.004*\"collected\" + 0.003*\"merger\" + 0.003*\"modified\""
+    ],
+    [
+        14,
+        "0.055*\"collect\" + 0.035*\"information\" + 0.020*\"personal\" + 0.018*\"payment\" + 0.017*\"use\" + 0.016*\"data\" + 0.010*\"process\" + 0.007*\"facebook\" + 0.007*\"product\" + 0.007*\"service\" + 0.007*\"may\" + 0.007*\"history\" + 0.006*\"account\" + 0.006*\"purchase\" + 0.006*\"obtain\" + 0.005*\"order\" + 0.004*\"u\" + 0.004*\"application\" + 0.004*\"transaction\" + 0.004*\"yi\""
+    ],
+    [
+        15,
+        "0.015*\"protect\" + 0.012*\"information\" + 0.009*\"data\" + 0.008*\"personal\" + 0.007*\"long\" + 0.007*\"attn\" + 0.006*\"security\" + 0.006*\"service\" + 0.006*\"party\" + 0.006*\"u\" + 0.005*\"keep\" + 0.005*\"user\" + 0.005*\"site\" + 0.005*\"external\" + 0.005*\"website\" + 0.005*\"may\" + 0.005*\"secure\" + 0.005*\"identifiable\" + 0.005*\"non-personally\" + 0.004*\"use\""
+    ],
+    [
+        16,
+        "0.017*\"service\" + 0.015*\"provide\" + 0.011*\"product\" + 0.010*\"information\" + 0.007*\"responding\" + 0.007*\"u\" + 0.007*\"request\" + 0.006*\"customer\" + 0.006*\"data\" + 0.006*\"voluntarily\" + 0.005*\"may\" + 0.005*\"use\" + 0.005*\"personal\" + 0.005*\"facilitate\" + 0.005*\"website\" + 0.004*\"user\" + 0.004*\"cambridge\" + 0.003*\"setup\" + 0.003*\"account\" + 0.003*\"trend\""
+    ],
+    [
+        17,
+        "0.011*\"transaction\" + 0.010*\"subscribe\" + 0.008*\"information\" + 0.008*\"right\" + 0.007*\"data\" + 0.007*\"exercising\" + 0.006*\"personal\" + 0.005*\"site\" + 0.005*\"definition\" + 0.005*\"attention\" + 0.005*\"may\" + 0.004*\"complete\" + 0.004*\"purchase\" + 0.004*\"service\" + 0.004*\"card\" + 0.004*\"gateway\" + 0.004*\"register\" + 0.004*\"handling\" + 0.004*\"u\" + 0.004*\"privacy\""
+    ],
+    [
+        18,
+        "0.015*\"cooky\" + 0.015*\"track\" + 0.012*\"browser\" + 0.011*\"automatically\" + 0.010*\"information\" + 0.009*\"log\" + 0.008*\"web\" + 0.008*\"technology\" + 0.008*\"contest\" + 0.007*\"site\" + 0.007*\"promotion\" + 0.007*\"data\" + 0.007*\"survey\" + 0.007*\"address\" + 0.007*\"use\" + 0.006*\"scope\" + 0.006*\"collected\" + 0.006*\"ip\" + 0.006*\"secure\" + 0.006*\"may\""
+    ],
+    [
+        19,
+        "0.011*\"statement\" + 0.009*\"change\" + 0.009*\"instagram\" + 0.008*\"privacy\" + 0.007*\"information\" + 0.007*\"policy\" + 0.005*\"switzerland\" + 0.005*\"service\" + 0.004*\"use\" + 0.004*\"personal\" + 0.004*\"may\" + 0.004*\"robot\" + 0.004*\"u\" + 0.004*\"request\" + 0.003*\"data\" + 0.003*\"please\" + 0.003*\"human\" + 0.003*\"website\" + 0.003*\"product\" + 0.003*\"account\""
+    ],
+    [
+        20,
+        "0.018*\"deletion\" + 0.012*\"access\" + 0.011*\"request\" + 0.010*\"personal\" + 0.009*\"information\" + 0.009*\"correction\" + 0.009*\"right\" + 0.009*\"data\" + 0.007*\"managing\" + 0.006*\"service\" + 0.006*\"care\" + 0.005*\"may\" + 0.004*\"keen\" + 0.004*\"distributor\" + 0.004*\"auditing\" + 0.004*\"relationship\" + 0.004*\"resellers\" + 0.004*\"product\" + 0.004*\"u\" + 0.004*\"use\""
+    ],
+    [
+        21,
+        "0.015*\"right\" + 0.014*\"data\" + 0.013*\"personal\" + 0.012*\"interest\" + 0.012*\"legitimate\" + 0.012*\"information\" + 0.012*\"processing\" + 0.010*\"object\" + 0.007*\"general\" + 0.006*\"use\" + 0.006*\"purpose\" + 0.005*\"may\" + 0.005*\"u\" + 0.005*\"ground\" + 0.005*\"process\" + 0.005*\"collect\" + 0.005*\"service\" + 0.004*\"ii\" + 0.004*\"privacy\" + 0.004*\"rectification\""
+    ],
+    [
+        22,
+        "0.032*\"sharing\" + 0.015*\"information\" + 0.010*\"personal\" + 0.009*\"minor\" + 0.007*\"service\" + 0.007*\"professional\" + 0.006*\"myzone\" + 0.006*\"price\" + 0.006*\"use\" + 0.006*\"data\" + 0.005*\"website\" + 0.005*\"may\" + 0.005*\"product\" + 0.004*\"employment-related\" + 0.004*\"commercial\" + 0.004*\"address\" + 0.004*\"selling\" + 0.004*\"subscription\" + 0.004*\"business\" + 0.004*\"privacy\""
+    ],
+    [
+        23,
+        "0.021*\"home\" + 0.016*\"type\" + 0.016*\"top\" + 0.013*\"information\" + 0.012*\"back\" + 0.011*\"may\" + 0.009*\"use\" + 0.008*\"cooky\" + 0.008*\"data\" + 0.008*\"collect\" + 0.007*\"service\" + 0.006*\"website\" + 0.005*\"personal\" + 0.005*\"demographic\" + 0.004*\"browser\" + 0.004*\"policy\" + 0.004*\"address\" + 0.004*\"page\" + 0.004*\"site\" + 0.004*\"privacy\""
+    ],
+    [
+        24,
+        "0.015*\"communicate\" + 0.010*\"mobvoi\" + 0.009*\"information\" + 0.009*\"registration\" + 0.008*\"card\" + 0.008*\"number\" + 0.007*\"cart\" + 0.007*\"inference\" + 0.006*\"product\" + 0.006*\"credit\" + 0.006*\"dealer\" + 0.006*\"shopping\" + 0.005*\"service\" + 0.005*\"age\" + 0.005*\"customer\" + 0.005*\"may\" + 0.005*\"u\" + 0.005*\"debit\" + 0.004*\"site\" + 0.004*\"address\""
+    ],
+    [
+        25,
+        "0.016*\"international\" + 0.011*\"amazon\" + 0.011*\"transfer\" + 0.010*\"service\" + 0.009*\"de\" + 0.009*\"notice\" + 0.008*\"data\" + 0.008*\"information\" + 0.007*\"january\" + 0.006*\"personal\" + 0.006*\"privacy\" + 0.006*\"canadian\" + 0.006*\"provider\" + 0.006*\"inquiry\" + 0.006*\"tire\" + 0.005*\"opting\" + 0.005*\"u\" + 0.005*\"may\" + 0.004*\"use\" + 0.004*\"quickly\""
+    ],
+    [
+        26,
+        "0.021*\"childrens\" + 0.013*\"category\" + 0.011*\"privacy\" + 0.010*\"information\" + 0.010*\"personal\" + 0.008*\"sold\" + 0.006*\"disclosed\" + 0.006*\"center\" + 0.006*\"data\" + 0.005*\"collected\" + 0.004*\"may\" + 0.004*\"purpose\" + 0.004*\"service\" + 0.004*\"bose\" + 0.004*\"business\" + 0.004*\"u\" + 0.004*\"right\" + 0.004*\"supervisory\" + 0.004*\"security\" + 0.004*\"policy\""
+    ],
+    [
+        27,
+        "0.013*\"united\" + 0.013*\"state\" + 0.011*\"country\" + 0.009*\"information\" + 0.009*\"personal\" + 0.009*\"introduction\" + 0.009*\"data\" + 0.007*\"service\" + 0.007*\"may\" + 0.007*\"active\" + 0.007*\"cooky\" + 0.006*\"always\" + 0.006*\"use\" + 0.006*\"transfer\" + 0.005*\"site\" + 0.005*\"access\" + 0.004*\"u\" + 0.004*\"th\" + 0.004*\"provide\" + 0.004*\"collect\""
+    ],
+    [
+        28,
+        "0.016*\"e-mail\" + 0.014*\"yes\" + 0.010*\"read\" + 0.009*\"privacy\" + 0.009*\"site\" + 0.008*\"practice\" + 0.008*\"responsible\" + 0.007*\"website\" + 0.007*\"information\" + 0.006*\"may\" + 0.006*\"policy\" + 0.005*\"icon\" + 0.005*\"service\" + 0.005*\"address\" + 0.005*\"u\" + 0.005*\"party\" + 0.005*\"link\" + 0.005*\"communicating\" + 0.005*\"data\" + 0.005*\"use\""
+    ],
+    [
+        29,
+        "0.010*\"ago\" + 0.009*\"password\" + 0.008*\"information\" + 0.008*\"follow\" + 0.007*\"cooper\" + 0.007*\"v\" + 0.006*\"service\" + 0.006*\"data\" + 0.005*\"smart\" + 0.005*\"personal\" + 0.005*\"year\" + 0.005*\"llc\" + 0.005*\"digital\" + 0.005*\"u\" + 0.005*\"holding\" + 0.005*\"alliance\" + 0.004*\"use\" + 0.004*\"visiting\" + 0.004*\"info\" + 0.004*\"industry\""
+    ],
+    [
+        30,
+        "0.019*\"legal\" + 0.016*\"processing\" + 0.015*\"data\" + 0.013*\"retention\" + 0.012*\"contract\" + 0.010*\"personal\" + 0.009*\"purpose\" + 0.008*\"information\" + 0.008*\"basis\" + 0.008*\"place\" + 0.008*\"obligation\" + 0.008*\"comply\" + 0.007*\"service\" + 0.007*\"u\" + 0.006*\"performance\" + 0.006*\"record\" + 0.006*\"necessary\" + 0.006*\"owneriq\" + 0.005*\"may\" + 0.005*\"maintain\""
+    ],
+    [
+        31,
+        "0.035*\"child\" + 0.027*\"consent\" + 0.015*\"age\" + 0.010*\"information\" + 0.008*\"withdraw\" + 0.008*\"profile\" + 0.007*\"disclaimer\" + 0.007*\"personal\" + 0.006*\"agent\" + 0.006*\"st\" + 0.006*\"discussion\" + 0.006*\"authorized\" + 0.005*\"u\" + 0.005*\"service\" + 0.005*\"data\" + 0.005*\"knowingly\" + 0.005*\"popular\" + 0.005*\"gift\" + 0.005*\"may\" + 0.005*\"use\""
+    ],
+    [
+        32,
+        "0.027*\"collected\" + 0.013*\"personal\" + 0.013*\"information\" + 0.013*\"data\" + 0.006*\"correspondence\" + 0.006*\"controlling\" + 0.006*\"special\" + 0.005*\"u\" + 0.005*\"may\" + 0.005*\"service\" + 0.005*\"behavioural\" + 0.005*\"use\" + 0.004*\"product\" + 0.004*\"share\" + 0.004*\"stored\" + 0.004*\"provide\" + 0.003*\"video\" + 0.003*\"pm\" + 0.003*\"buy\" + 0.003*\"purchase\""
+    ],
+    [
+        33,
+        "0.013*\"disclosure\" + 0.011*\"order\" + 0.010*\"information\" + 0.009*\"fulfill\" + 0.007*\"shipping\" + 0.006*\"service\" + 0.006*\"personal\" + 0.006*\"data\" + 0.006*\"u\" + 0.005*\"provide\" + 0.005*\"use\" + 0.005*\"user\" + 0.005*\"purpose\" + 0.005*\"tabads\" + 0.004*\"payment\" + 0.004*\"confirmation\" + 0.004*\"token\" + 0.004*\"product\" + 0.004*\"site\" + 0.004*\"invoxia\""
+    ],
+    [
+        34,
+        "0.021*\"email\" + 0.018*\"address\" + 0.013*\"information\" + 0.013*\"device\" + 0.011*\"communication\" + 0.010*\"may\" + 0.009*\"marketing\" + 0.008*\"send\" + 0.008*\"service\" + 0.008*\"u\" + 0.008*\"product\" + 0.007*\"number\" + 0.007*\"browser\" + 0.007*\"identifier\" + 0.007*\"collect\" + 0.007*\"site\" + 0.006*\"receive\" + 0.006*\"ip\" + 0.006*\"opt\" + 0.006*\"name\""
+    ],
+    [
+        35,
+        "0.015*\"location\" + 0.013*\"information\" + 0.010*\"data\" + 0.009*\"personal\" + 0.008*\"geolocation\" + 0.007*\"sell\" + 0.007*\"business\" + 0.006*\"u\" + 0.006*\"may\" + 0.006*\"service\" + 0.006*\"asset\" + 0.006*\"party\" + 0.006*\"portability\" + 0.005*\"nevada\" + 0.005*\"transfer\" + 0.005*\"provide\" + 0.005*\"source\" + 0.005*\"third\" + 0.005*\"fax\" + 0.005*\"based\""
+    ],
+    [
+        36,
+        "0.047*\"california\" + 0.031*\"right\" + 0.020*\"resident\" + 0.018*\"privacy\" + 0.016*\"consumer\" + 0.014*\"ccpa\" + 0.010*\"act\" + 0.010*\"information\" + 0.009*\"personal\" + 0.007*\"request\" + 0.007*\"notice\" + 0.006*\"month\" + 0.006*\"table\" + 0.006*\"data\" + 0.005*\"office\" + 0.005*\"may\" + 0.004*\"protection\" + 0.004*\"description\" + 0.004*\"u\" + 0.004*\"twelve\""
+    ],
+    [
+        37,
+        "0.018*\"skip\" + 0.015*\"b\" + 0.014*\"content\" + 0.010*\"information\" + 0.008*\"cooky\" + 0.007*\"service\" + 0.007*\"contact\" + 0.007*\"website\" + 0.007*\"use\" + 0.006*\"following\" + 0.006*\"may\" + 0.006*\"flash\" + 0.006*\"employment\" + 0.006*\"personal\" + 0.006*\"gather\" + 0.005*\"u\" + 0.005*\"collect\" + 0.005*\"detail\" + 0.004*\"data\" + 0.004*\"privacy\""
+    ],
+    [
+        38,
+        "0.008*\"language\" + 0.008*\"overview\" + 0.006*\"service\" + 0.006*\"postal\" + 0.006*\"query\" + 0.006*\"information\" + 0.005*\"personal\" + 0.005*\"data\" + 0.005*\"may\" + 0.005*\"use\" + 0.005*\"calling\" + 0.005*\"product\" + 0.005*\"address\" + 0.004*\"china\" + 0.004*\"extended\" + 0.004*\"u\" + 0.004*\"purpose\" + 0.003*\"recommendation\" + 0.003*\"provide\" + 0.003*\"website\""
+    ],
+    [
+        39,
+        "0.030*\"category\" + 0.015*\"information\" + 0.015*\"phone\" + 0.014*\"personal\" + 0.011*\"warranty\" + 0.010*\"data\" + 0.009*\"collected\" + 0.008*\"c\" + 0.008*\"number\" + 0.006*\"party\" + 0.006*\"third\" + 0.006*\"collect\" + 0.006*\"service\" + 0.006*\"purpose\" + 0.006*\"right\" + 0.006*\"click\" + 0.005*\"may\" + 0.005*\"following\" + 0.005*\"source\" + 0.005*\"use\""
+    ],
+    [
+        40,
+        "0.040*\"google\" + 0.030*\"analytics\" + 0.011*\"information\" + 0.010*\"data\" + 0.009*\"personal\" + 0.008*\"party\" + 0.008*\"advertising\" + 0.007*\"service\" + 0.007*\"use\" + 0.006*\"technical\" + 0.006*\"provider\" + 0.006*\"twitter\" + 0.006*\"disclosure\" + 0.006*\"measure\" + 0.006*\"third\" + 0.005*\"disclose\" + 0.005*\"remarketing\" + 0.005*\"outside\" + 0.005*\"access\" + 0.005*\"unauthorized\""
+    ],
+    [
+        41,
+        "0.022*\"cooky\" + 0.009*\"commercial\" + 0.008*\"information\" + 0.007*\"use\" + 0.007*\"session\" + 0.006*\"learn\" + 0.006*\"browser\" + 0.005*\"service\" + 0.005*\"interest-based\" + 0.005*\"website\" + 0.005*\"may\" + 0.005*\"vi\" + 0.005*\"personal\" + 0.004*\"privacy\" + 0.004*\"advertising\" + 0.004*\"describe\" + 0.004*\"site\" + 0.004*\"business\" + 0.004*\"policy\" + 0.004*\"k\""
+    ],
+    [
+        42,
+        "0.013*\"privacy\" + 0.012*\"policy\" + 0.011*\"change\" + 0.011*\"social\" + 0.010*\"medium\" + 0.010*\"updated\" + 0.008*\"time\" + 0.008*\"last\" + 0.008*\"information\" + 0.007*\"use\" + 0.007*\"service\" + 0.006*\"may\" + 0.006*\"personal\" + 0.006*\"post\" + 0.006*\"data\" + 0.006*\"date\" + 0.006*\"update\" + 0.005*\"website\" + 0.005*\"u\" + 0.005*\"review\""
+    ]
+]

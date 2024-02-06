@@ -1,0 +1,15 @@
+gensim
+numpy
+plotly
+scikit-learn
+jupyter
+nltk
+pandas
+kaleido
+pymystem3
+pyldavis
+kneed
+matplotlib
+bokeh
+tqdm
+ploomber
