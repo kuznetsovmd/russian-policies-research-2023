@@ -13,3 +13,4 @@ matplotlib
 bokeh
 tqdm
 ploomber
+scipy==1.12

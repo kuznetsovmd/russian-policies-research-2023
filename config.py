@@ -41,8 +41,8 @@ STOPWORDS = [
 NOTEBOOKS = f'notebooks'
 RESOURCES = f'resources'
 
-RU = Dataset(f'{RESOURCES}/datasets/ru', 'output_policies', 'output.json', 'metrics.json')
-EN = Dataset(f'{RESOURCES}/datasets/en', 'plain_policies', 'plain.json', 'metrics.json')
+RU = Dataset(f'/mnt/Source/kuznetsovmd/ppr-sanitization/resources/finalized', 'output_policies', 'output.json', 'metrics.json')
+EN = Dataset(f'/mnt/Source/kuznetsovmd/__datasets/en', 'plain_policies', 'plain.json', 'metrics.json')
 
 
 LDA_HYPERPARAMS = {
@@ -84,7 +84,7 @@ NOTEBOOKS_ARGS_DEFAULT = {
     'notebooks/pyvis.ipynb': 
         .005,
     'notebooks/structure_5_histograms.ipynb': 
-        [(250, 50), (200, 50), (200, 25), (150, 50), (50, 25)],
+        [(26, 1), (26, 5), (26, 1), (26, 1), (26, 1)],
     'notebooks/structure_by_1_kmeans_wo_hp.ipynb': 
         300,
     'notebooks/structure_by_1_kmeans.ipynb': 
@@ -92,7 +92,7 @@ NOTEBOOKS_ARGS_DEFAULT = {
     'notebooks/structure_heatmap.ipynb': 
         [],
     'notebooks/structure_sizes.ipynb': 
-        [(250, 50), (6450, 7500)]}
+        [(51, 1000), (51, 25)]}
 
 
 """
@@ -104,7 +104,7 @@ EX_RU2 = Experiment(
     lda_hyperparams=LDA_HYPERPARAMS.copy(),
     custom_stopwords=STOPWORDS.copy(),
     nb_args=ARGS_RU2.copy(),
-    experiment=f'{RESOURCES}/ru_better_preprocess',
+    experiment=f'{RESOURCES}/ru_better_preprocess2',
     groups=GROUPS_WITH_BETTER_PREPROCESS_RU,
     preprocess_type='ru',
     dataset=RU,)

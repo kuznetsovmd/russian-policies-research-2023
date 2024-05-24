@@ -2,13 +2,21 @@ import numpy as np
 import plotly.express as px
 
 from src.classes import Dataset, Experiment
-from src.mapping import GROUPS_RU
+from src.mapping import GROUPS_WITH_BETTER_PREPROCESS_EN, GROUPS_WITH_BETTER_PREPROCESS_RU
 from src.utils import rgba
 
 
 COLORS_A = [rgba(c, 0.30) for c in [*px.colors.qualitative.Dark24[:5], *px.colors.qualitative.Dark24[7:]]]
 COLORS_B = [rgba(c, 0.75) for c in [*px.colors.qualitative.Dark24[:5], *px.colors.qualitative.Dark24[7:]]]
 COLORS_C = [rgba(c, 1.00) for c in [*px.colors.qualitative.Dark24[:5], *px.colors.qualitative.Dark24[7:]]]
+COLORS_D = [rgba(c, 1.00) for c in [
+    '#f44336','#e81e63','#9c27b0','#673ab7','#3f51b5','#2196f3',
+    '#03a9f4','#00bcd4','#009688','#4caf50','#8bc34a','#cddc39',
+    '#ffeb3b','#ffc107','#ff9800','#ff5722']]
+COLORS_E = [rgba(c, 0.30) for c in [
+    '#f44336','#e81e63','#9c27b0','#673ab7','#3f51b5','#2196f3',
+    '#03a9f4','#00bcd4','#009688','#4caf50','#8bc34a','#cddc39',
+    '#ffeb3b','#ffc107','#ff9800','#ff5722']]
 
 STOPWORDS = [
     'который', 'иной', 'либо', 'свой',
@@ -28,13 +36,13 @@ STOPWORDS = [
     "out", "on", "off", "r", "ther", "re", "in", "er", "why", 
     "how", "all", "any", "few", "e", "h", "no", "nor", "not", 
     "own", "so", "too", "y", "can", "l", "don", "uld", "now", 
-    "e", "s", "m", "ing"]
+    "e", "s", "m", "your", "yours", "ing"]
 
-NOTEBOOKS = 'notebooks'
-RESOURCES = 'resources'
+NOTEBOOKS = f'notebooks'
+RESOURCES = f'resources'
 
-RU = Dataset(f'{RESOURCES}/datasets/ru', 'output_policies', 'output.json', 'metrics.json')
-EN = Dataset(f'{RESOURCES}/datasets/en', 'plain_policies', 'plain.json', 'metrics.json')
+RU = Dataset(f'/mnt/Source/kuznetsovmd/ppr-sanitization/resources/finalized', 'output_policies', 'output.json', 'metrics.json')
+EN = Dataset(f'/mnt/Source/kuznetsovmd/__datasets/en', 'plain_policies', 'plain.json', 'metrics.json')
 
 
 LDA_HYPERPARAMS = {
@@ -74,7 +82,7 @@ NOTEBOOKS_ARGS_DEFAULT = {
     'notebooks/parse_topics.ipynb': 
         [7, 7, 0.03, 0.08, 4800, 3000],
     'notebooks/pyvis.ipynb': 
-        .009,
+        .005,
     'notebooks/structure_5_histograms.ipynb': 
         [(250, 50), (200, 50), (200, 25), (150, 50), (50, 25)],
     'notebooks/structure_by_1_kmeans_wo_hp.ipynb': 
@@ -90,29 +98,31 @@ NOTEBOOKS_ARGS_DEFAULT = {
 """
 Experiment with model in Russian 
 """
-ARGS_RU1 = NOTEBOOKS_ARGS_DEFAULT.copy()
-EX_RU1 = Experiment(
+ARGS_RU2 = NOTEBOOKS_ARGS_DEFAULT.copy()
+EX_RU2 = Experiment(
     kmeans_hyperparams=KMEANS_HYPERPARAMS.copy(),
     lda_hyperparams=LDA_HYPERPARAMS.copy(),
     custom_stopwords=STOPWORDS.copy(),
-    nb_args=ARGS_RU1.copy(),
-    experiment=f'{RESOURCES}/ru1',
+    nb_args=ARGS_RU2.copy(),
+    experiment=f'{RESOURCES}/ru_better_preprocess2',
+    groups=GROUPS_WITH_BETTER_PREPROCESS_RU,
     preprocess_type='ru',
-    groups=GROUPS_RU,
     dataset=RU,)
 
 
 """
 Experiment with model in English 
 """
-ARGS_EN1 = NOTEBOOKS_ARGS_DEFAULT.copy()
-ARGS_EN1['parse_topics.ipynb'] = (6, 4, 0.03, 0.08, 4800, 3000)
-EX_EN1 = Experiment(
+ARGS_EN2 = NOTEBOOKS_ARGS_DEFAULT.copy()
+ARGS_EN2['notebooks/parse_topics.ipynb'] = (6, 4, 0.03, 0.08, 4800, 3000)
+ARGS_EN2['notebooks/pyvis.ipynb'] = (0.004)
+EX_EN2 = Experiment(
     kmeans_hyperparams=KMEANS_HYPERPARAMS.copy(),
     lda_hyperparams=LDA_HYPERPARAMS.copy(),
     custom_stopwords=STOPWORDS.copy(),
-    nb_args=ARGS_EN1,
-    experiment=f'{RESOURCES}/en1',
+    nb_args=ARGS_EN2,
+    experiment=f'{RESOURCES}/en_better_preprocess',
+    groups=GROUPS_WITH_BETTER_PREPROCESS_EN,
     preprocess_type='en',
     dataset=EN,)
 
@@ -120,4 +130,4 @@ EX_EN1 = Experiment(
 """
 Main experiment
 """
-MAIN_EXPERIMENT = EX_EN1
+MAIN_EXPERIMENT = EX_RU2

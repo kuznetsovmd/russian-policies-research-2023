@@ -25,7 +25,7 @@ def resolve_group_name(id, groups):
 
 
 def resolve_stats(stats):
-    if all([s in stats.keys() for s in ['table', 'ol', 'ul', 'li', 'p', 'br']]):
+    if all(s in stats.keys() for s in ['table', 'ol', 'ul', 'li', 'p', 'br']):
         return {
             'length': stats['length'],
             'tables': stats['table'],

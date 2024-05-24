@@ -45,8 +45,8 @@ def preprocess(docs_split, lem):
             clean_par = TAGS.sub('', clean_par)
             clean_par = CHARS.sub(' ', clean_par)
             clean_par = DASH1.sub(' ', clean_par)
-            clean_par = DASH2.sub('\g<1> ', clean_par)
-            clean_par = DASH3.sub(' \g<2>', clean_par)
+            clean_par = DASH2.sub('\1 ', clean_par)
+            clean_par = DASH3.sub(' \2', clean_par)
             clean_par = SPACES.sub(' ', clean_par)
 
             tokens = [t for t in clean_par.split(' ') if t]
@@ -76,7 +76,7 @@ def main():
         with open(f, 'r', encoding='utf-8') as i:
             policies.append(i.read())
     
-    docs_split = [d.lower().split('\n\n\n') for d in policies]
+    docs_split = [d.lower().split('\n\n') for d in policies]
 
     lemmatizer = Mystem() if MAIN_EXPERIMENT.preprocess_type == 'ru' else WordNetLemmatizer()
     preprocessed = preprocess(docs_split, lemmatizer)  
