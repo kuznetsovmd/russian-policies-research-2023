@@ -42,7 +42,7 @@ NOTEBOOKS = f'notebooks'
 RESOURCES = f'resources'
 
 RU = Dataset(f'/mnt/Source/kuznetsovmd/ppr-sanitization/resources/finalized', 'output_policies', 'output.json', 'metrics.json')
-EN = Dataset(f'/mnt/Source/kuznetsovmd/__datasets/en', 'plain_policies', 'plain.json', 'metrics.json')
+EN = Dataset(f'/mnt/Source/kuznetsovmd/datasets/iot-dataset', 'plain_policies', 'json/plain.json', 'metrics.json')
 
 
 LDA_HYPERPARAMS = {
@@ -130,4 +130,4 @@ EX_EN2 = Experiment(
 """
 Main experiment
 """
-MAIN_EXPERIMENT = EX_RU2
+MAIN_EXPERIMENT = EX_EN2

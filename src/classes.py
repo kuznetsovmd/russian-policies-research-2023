@@ -41,6 +41,8 @@ class Experiment:
         self.excerpts_file = f'{experiment}/excerpts.json'
         self.lda_file = f'{experiment}/lda.json'
 
+        self.tsne = f'{experiment}/tsne.npy'
+
         os.makedirs(self.models, exist_ok=True)
         os.makedirs(self.pictures, exist_ok=True)
         os.makedirs(self.topics, exist_ok=True)
